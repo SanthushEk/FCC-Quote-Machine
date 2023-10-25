@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+
+  #quote-box {
+    color: black;
+    border-radius: 8px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+  }
+
+  #text {
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+
+    #quote-icon {
+      margin-right: 10px;
+    }
+  }
+
+  #author {
+    margin-top: 10px;
+    text-align: end;
+    font-size: 15px;
+  }
+
+  .button {
+    display: flexbox;
+
+    #tweet-quote {
+      display: flex;
+      padding: 10px;
+      border-radius: 10px;
+      float: left;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      align-self: center;
+      justify-content: center;
+    }
+  }
+
+  #new-quote {
+    margin-top: 10px;
+    float: right;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .fadeOut {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
